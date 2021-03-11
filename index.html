@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evan's Resume</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal " data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >Evan</h1>
+                <h4 id="persona-tag" >Python / Java / Quality Software Testing</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">李逸軒</span></li>
+                    <li>
+                        <label class="left-label">學歷</label><span class="label-value">碩士</span></li>
+                        <li>
+                        <label class="left-label">就讀學校</label><span class="label-value">中央大學</span></li>
+                    <li>
+                        <label class="left-label">畢業學校</label><span class="label-value">淡江大學</span></li>
+                    <li>
+                        <label class="left-label">畢業年份</label><span class="label-value">2013</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">聯繫方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手機</label><span class="label-value">0976347762</span></li>
+                    <li>
+                        <label class="left-label">信箱</label><span class="label-value">eason_s@hotmail.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/slps20425</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">ML/DL</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">jQuery</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">後端</label><span class="label-value">Flask、Django、MongoDB、MySQL</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">RobotFramework、Cucumber</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><span class="info-title">Line</span></h2>
+                <hr>
+                <div class="frame">
+                    <img src="static/image/line.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育經歷</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>National Central University, Taiwan</h3>
+                        <p>
+                            Master of Science, postgraduate students (Evening classes), start at 9/2019 
+                        </p>
+                    </li>
+                    <li>
+                        <h3>TAMKANG University, Taiwan</h3>
+                        <p>
+                            Bachelor of Science, 6/2013 
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作經歷</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Ironyun Company, HsinChu Taiwan, 4/2019 to present</h3>
+                        <p>Software QA Engineer: 4/2019 to present, mainly reasonable for software application testing. Create and design the testing scenario in test cases suite.
+                        </p>
+                        <br></br>
+                        <p>-Software testing, include manual, automated and API testing (CRUD testing).
+                            <br></br>-Strong automation script by JAVA / Python language.
+                            <br></br>-Automated scripts by shell or python.
+                            <br></br>-Mobile testing with python via robotFramework.
+                            <br></br>-Create different testing scenario to strong our test cases suite.
+                            <br></br>-Work with colleague from different country. (Indian and Russian)
+                            <br></br>-Trouble-shooting from system logs.
+                            <br></br>-Collaborate with Developer to dig the root cause of bugs.
+                            <br></br>-Provide solutions as improvement for applications.
+                            <br></br>-Maintain the software quality.
+                            </p>
+                    </li>
+                    <li>
+                        <h3>QUANTA COMPANY, Shanghai, China ,7/2016 to 3/2019</h3>
+                        <p>Software testing Engineer: 7/2016 to 3/2019 : software verify and debug via embedded wearable device. Present and host daily presentation with client’s engineers from different countries.
+                        </p>
+                        <br></br>
+                        <p>
+                            -Tuning testing software with client engineer (Apple) and deploy to production line.
+                            <br></br>-Analysis the data from production line with statistics tool (JMP/Python), catching unexpected parameter limit in order to decrease the retest rate less than 3%. 
+                            <br></br>-Data cleaning from the production line. 
+                            <br></br>-Data visualization from huge data set. 
+                            <br></br>-Failure Analysis for the defect product. 
+                            <br></br>-Host the daily meeting with internal and external client (Apple) to discuss the bugs and solutions. 
+                            <br></br>-Cooperate across functional team (EE and PM) to solve critical issues during New Product Introduction. 
+                            <br></br>-Trouble-shooting with the embedded wearable device in Unix environment.
+                            <br></br>-Define the standard operation procedure and documentation with the Python tool.
+                            <br></br>-Participate the business in United States with clients to tuning the testing software(7 times).
+
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">證書</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>In-service master's program on Computer Science department</h3>
+                        <p>
+                            In-service master's program on Computer Science department (National Central University), 2019 
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>JAVA course attending</h3>
+                        <p>
+                            JAVA course attending (Institute for Information Industry), 2015
+
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>E-Enterprise Assistant Planner Certification</h3>
+                        <p>
+                            E-Enterprise Assistant Planner Certification (Computer skills foundation), 2013 
+                        </p>
+
+                    </li>    
+                    <li>
+                        <h3>TQC Fundamentals of e-Commerce</h3>
+                        <p>
+                            TQC Fundamentals of e-Commerce (Computer skills foundation), 2013 
+                        </p>
+                        
+                    </li>                    
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <h><strong> 1. Personality and Introduction</h></strong>
+                <br></br>
+                <p>
+                    
+I am Yi-Hsuan.Lee, lives in Tainan. I was born in 1991 with a small family. My personality is positive and willing to accept any challenges. I would like to learn any new things according to my personality. I am a cautious and patient person. Also, I am an outgoing person and have strong observation when get along with people. When facing pressure, I have ability to handle and find out solution for that.
+<br></br>
+                </p>
+                <h><strong> 2. School experience
+                </h></strong>
+                <br></br>
+                <p> (1) I graduated from TAMKANG University, Department of Innovative Information and Technology- Software Engineering. In the courses in university, I learned the basic programming skills and how to build and design webpage, Multimedia Software operating. Also, I learned how to design an app with team in my final project. Besides, I went to some activities and exhibitions in my spare time. 
+                    (2) During the third year of college, I got the chance to exchange to Washington State, United States. That year, I learned how to communicate with foreigners with second language in new environment. There were many things should be handled by myself. The most important in my school life is that I learned how to adapting to group life and what is team work. Also, my English skill improve a lot.</p>
+                    
+                    <br></br>
+                    <h><strong> 3. Work experience
+                    </h></strong>
+                    <br></br>
+            
+                    <p>In my work experience, I am work at Ironyun company currently. My job responsibility is about software testing, includes manual and automated and API testing. Among the tasks, I have learned how to make an automated script to run through our applications and have knowledge on creating testing scenario to make our test cases suite strong. During the task, we using Jira system to manage our task effectively, hence, I was getting more knowledge on task management. Also, my manager is from India. I have to report directly to him. From the daily work, I have learned how to communicate if our perspective were different. It is important to share our view of issue, and decide a better solution for an issue. <br></br>
+
+                        My Second job was in Quanta Computer Corporation, which is the company manufacture embedded electronic device, located at Shanghai, China. My job responsibility is about software validation, data analysis, co-work with other department to improve testing tool, co-work with related department to improve factory processing, tracking factory daily report. According to this job, I have to work with people from different country. Work with multiracial people which build up a strong global vision for me. Also, I have learned how to using an automated tool to reduce loading which provided from clients. During the validations on the testing tool from clients, I have more knowledge to trouble-shooting the tools, which required cross validation on device, regression testing between different version of the tools. Also, I have getting complete knowledge on each component inside the embedded device’s function, why it design to test and how the factory produce process run through. The most important is I have learned the independent during the period while I was staying in China. <br></br>
+                        
+                        For my first job was a service engineer in Customer Service Department in the Equipment Manufacturing Industry. Mainly responsible for Customer Complaints Solution, Trouble-Shooting at customer site (includes electrical and IPC Hardware and software), Issue Tracking, IPC Hardware testing, Programming at C and Visual Basic, Machine Program modification, on-site support and training which for internal foreign technician and External clients, making Standard Operating Procedure for machine operation and trouble- shooting instruction. In my work responsibility, trouble-shooting issues is one of the most challenge task among them. It required to cooperate with supplier and each relevant RD department. The key to successful multilateral cooperation is communication. It is necessary to grasp the progress of each link. On the other hand, I had been dispatched to United States to do annual customer service Maintenance. I face some unpredictable issues that I have never met in Taiwan. I have grown up with the experience while working with people from different country during this period.<br></br>
+                        </p>
+                        
+                        <h><strong> 4. Career Vision and Self-expectation
+                        </h></strong>
+                        <br></br>
+                        <p>(1) According to my major, basic programming Language and basic knowledge of developing program are needed for me. In my work, Problem-Solving and Communication are also improved. All of the abilities must to strive for excellence in my future career.
+                            (2) In the professional field, keep learning and asking. In spare time, I will read related book or paper to increase my professional knowledge.
+                            (3) I am willing to contribute my ability to company to solve problem or improve task efficiency.
+                            </p>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
